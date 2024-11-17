@@ -2,6 +2,8 @@
     "name": "piotrwojewoda/nanomq",
     "description": "this package does message queuing instead of ampq tool",
     "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Piotrwojewoda\\Nanomq\\": "src/"
