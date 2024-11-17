@@ -1,0 +1,17 @@
+{
+    "name": "piotrwojewoda/nanomq",
+    "description": "this package does message queuing instead of ampq tool",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Piotrwojewoda\\Nanomq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piotr Wojewoda",
+            "email": "piotr.wojewoda.php@gmail.com"
+        }
+    ],
+    "require": {}
+}
