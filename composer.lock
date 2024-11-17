@@ -4,9 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c7fab168fc66d56c6e281308394301a",
+    "content-hash": "fc4feae281a293b0757a9a565dddd395",
     "packages": [],
     "packages-dev": [
+        {
+            "name": "m6web/redis-mock",
+            "version": "v5.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BedrockStreaming/RedisMock.git",
+                "reference": "fdef627f640c63e95d804c11ac44d90d0baf2f99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BedrockStreaming/RedisMock/zipball/fdef627f640c63e95d804c11ac44d90d0baf2f99",
+                "reference": "fdef627f640c63e95d804c11ac44d90d0baf2f99",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "atoum/atoum": "~3.4||~4.0",
+                "predis/predis": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "M6Web\\Component\\RedisMock": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "M6Web",
+                    "email": "opensource@m6web.fr",
+                    "homepage": "http://tech.m6web.fr/"
+                }
+            ],
+            "description": "Library providing a PHP mock for Redis",
+            "keywords": [
+                "mock",
+                "redis"
+            ],
+            "support": {
+                "issues": "https://github.com/BedrockStreaming/RedisMock/issues",
+                "source": "https://github.com/BedrockStreaming/RedisMock/tree/v5.6.0"
+            },
+            "time": "2023-05-02T19:20:41+00:00"
+        },
         {
             "name": "myclabs/deep-copy",
             "version": "1.12.1",
