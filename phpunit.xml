@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        bootstrap="tests/bootstrap.php"
+        stopOnFailure="false"
+        displayDetailsOnTestsThatTriggerDeprecations="true"
+        displayDetailsOnTestsThatTriggerErrors="true"
+        displayDetailsOnTestsThatTriggerNotices="true"
+        displayDetailsOnTestsThatTriggerWarnings="true"
+        displayDetailsOnPhpunitDeprecations="true"
+        colors="true"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd">
+  <php>
+    <env name="api_email" value="piotr.wojewoda.php@gmail.com"/>
+    <env name="api_firstname" value="Test"/>
+    <env name="api_lastname" value="Testowy"/>
+  </php>
+  <testsuites>
+    <testsuite name="default">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+  <logging/>
+</phpunit>
