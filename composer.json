@@ -26,6 +26,7 @@
         "mockery/mockery": "^1.6"
     },
     "require": {
-        "ext-intl": "*"
+        "ext-intl": "*",
+        "predis/predis": "^2.2"
     }
 }
